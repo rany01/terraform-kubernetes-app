@@ -19,6 +19,8 @@ module "app" {
   ingress_host                      = "giropops.rany.fun"
   cert_manager_issuer               = "letsencrypt-prod"
 }
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
