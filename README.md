@@ -12,7 +12,7 @@ module "app" {
   cluster_certificate_authority_data = module.eks.cluster_certificate_authority_data
   cluster_token                     = data.aws_eks_cluster_auth.cluster.token
   app_name                          = "giropops-senhas"
-  app_image                         = "rrany/giropops-senhas:latest"
+  app_image                         = "rrany/giropops-senhas:4.0"
   app_replicas                      = 2
   app_port                          = 5000
   redis_host                        = "redis-service"
